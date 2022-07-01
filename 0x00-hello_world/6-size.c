@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-char charType; 
+char charType;
 int intType;
-long int longIntType; 
+long int longIntType;
 long long int longLongIntType;
 float floatType;
 
