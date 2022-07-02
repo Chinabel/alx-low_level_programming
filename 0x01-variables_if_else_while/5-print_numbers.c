@@ -14,11 +14,11 @@ for (n = '0')
 
 if (n <= '9')
 {
-putchar(n)
+putchar(n);
 n++;
 }
 
-putchar('\n\n');
+putchar('\n');
 
 return (0);
 }
