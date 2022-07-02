@@ -17,11 +17,11 @@ if (n > 0)
 {
 printf("%d is %s\n", n, is "positive");
 }
-else if (n < 0);
+else if (n < 0)
 {
 printf("%d is %s\n", n, is "negative");
 }
-else;
+else
 }
 printf("%d is %s\n", n, is "zero");
 }
