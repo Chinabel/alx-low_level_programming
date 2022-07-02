@@ -11,10 +11,8 @@ int main(void)
 int i = 'z';
 
 for (i = 'z'; i >= 'a'; i--)
-if (i >= 'a')
 {
 putchar(i);
-i--;
 }
 
 putchar('\n');
