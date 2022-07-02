@@ -3,7 +3,7 @@
 
 /**
  * main - print all possible combinations of two digit numbers
- * between 00 to 99
+ * between 00 to 89
  *
  * Return: 0 if success
  */
