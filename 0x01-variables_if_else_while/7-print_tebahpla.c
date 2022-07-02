@@ -12,11 +12,11 @@ int i;
 
 for (i = 'z'; i >= 'a'; i--)
 {
-putchar("%c",i);
+putchar(i);
 i--;
 }
 
-putchar(10);
+putchar('\n');
 
 return (0);
 }
