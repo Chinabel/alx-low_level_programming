@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print all possible combinations of two digit numbers
+ * main - print the smallest combinations of two digit numbers
  * between 00 to 89
  *
  * Return: 0 if success
