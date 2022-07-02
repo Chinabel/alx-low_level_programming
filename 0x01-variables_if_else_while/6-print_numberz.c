@@ -4,7 +4,7 @@
 /**
  * main - print single digit base 10 numbers beginning from 0
  * followed by a new line
- * 
+ *
  * Return: Always 0 (success)
  */
 
