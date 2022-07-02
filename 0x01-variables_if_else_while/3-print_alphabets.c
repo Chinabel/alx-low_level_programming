@@ -15,10 +15,10 @@ while (ch <= 'z')
 
 while (d <= 'Z')
 {
-putchar(%c , ch);
+putchar("%c ", ch);
 ch++;
 }
-{putchar(%s , d);
+{putchar("%s ", d);
 d++;
 }
 
