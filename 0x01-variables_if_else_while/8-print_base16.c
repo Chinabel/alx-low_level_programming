@@ -20,6 +20,7 @@ putchar((n % 10) + '0');
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
+}
 
 putchar('\n');
 
