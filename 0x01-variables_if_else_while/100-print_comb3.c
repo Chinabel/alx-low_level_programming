@@ -14,9 +14,12 @@ for (n1 = 0; n1 <= 9; n1++)
 
 for (n2 = 0; n2 <= 9; n2++)
 {
-putchar(n1,n2)
-if (n1 == 9 && n2 == 9)
+putchar(n1);
+if (n1 == 9)
+putchar(n2);
+if (n2 == 9)
 continue;
+
 putchar(',');
 putchar(' ');
 }
