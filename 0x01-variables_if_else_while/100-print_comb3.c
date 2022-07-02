@@ -8,15 +8,15 @@
 
 int main(void)
 {
-int n1, n2;
+int digit1, digit2;
 
-for (n1 = 0; n1 < 10; n1++)
+for (digit1 = 0; digit1 < 10; digit1++)
 {
-for (n2 = 0; n2 < 10; n2++)
+for (digit2 = 0; digit2 < 10; digit2++)
 {
-putchar((n1 % 10) + '0');
-putchar((n2 % 10) + '0');
-if (n1 == 8 && n2 == 9)
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
+if (digit1 == 8 && digit2 == 9)
 continue;
 
 putchar(',');
