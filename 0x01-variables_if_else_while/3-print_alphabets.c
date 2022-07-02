@@ -8,19 +8,16 @@
 
 int main(void)
 {
-char ch = 'a';
-char d = 'A';
+int ch;
 
-while (ch <= 'z')
-
-while (d <= 'Z')
+for (ch = 97; ch <= 122; ch++)
 {
-putchar("%c ", ch);
-ch++;
+putchar(ch);
 }
-{putchar("%s ", d);
-d++;
+for (ch = 65; ch <= 90; ch++)
+{putchar(ch);
 }
+putchar(10);/*this is the ASCII code for the new line*/
 
 return (0);
 }
