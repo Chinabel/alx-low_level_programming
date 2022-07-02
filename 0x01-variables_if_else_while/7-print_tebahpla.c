@@ -12,7 +12,7 @@ char d = 'z';
 
 for (d = 'z'; d >= 'a'; d--)
 {
-putchar(d);
+putchar("%c",d);
 d--;
 }
 
