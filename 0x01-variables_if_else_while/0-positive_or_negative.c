@@ -3,7 +3,9 @@
 #include <time.h>
 
 /**
- * main - assign random number to a variable
+ * main - assign random number to a variable and time it was executed
+ * and prints out based on condition
+ *
  * Return: Always 0 (success)
  */
 
@@ -15,15 +17,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%d is %s\n", n, is ("positive"));
+printf("%d is %s\n", n is ("positive"));
 }
 else if (n < 0)
 {
-printf("%d is %s\n", n, is ("negative"));
+printf("%d is %s\n", n is ("negative"));
 }
 else
 }
-printf("%d is %s\n", n, is ("zero"));
+printf("%d is %s\n", n is ("zero"));
 }
 
 return (0);
