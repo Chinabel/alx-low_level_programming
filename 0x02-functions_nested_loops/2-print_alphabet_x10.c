@@ -15,14 +15,13 @@ int n = 0;
 
 while (n <= 9)
 {
-for (ch = 97; ch <= 122; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
 }
 
 putchar('\n');
 }
-n++;
 
 getchar();
 }
