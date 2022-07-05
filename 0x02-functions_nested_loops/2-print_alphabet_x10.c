@@ -18,10 +18,10 @@ while (n <= 9)
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
+_putchar('\n');
 }
-n++;
 
-putchar('\n');
+n++;
 }
 
 getchar();
