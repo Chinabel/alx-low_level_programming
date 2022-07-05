@@ -9,9 +9,9 @@
 
 int _islower(int c)
 {
-char ch;
+int c;
 
-if (ch >= 'a' && ch <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
