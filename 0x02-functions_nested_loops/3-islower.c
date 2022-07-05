@@ -3,7 +3,7 @@
 
 /**
  * _islower - the function to check if an integer is lowercase
- * c: an integer if it is lowercase
+ * c: the integer to be used
  * Return: 0 if otherwise
  */
 
