@@ -4,6 +4,7 @@
 /**
  * main - print alphabet in lowercase
  * followed by a new line
+ * print_alphabet - print a-z
  * 
  * Return: Always void
  */
