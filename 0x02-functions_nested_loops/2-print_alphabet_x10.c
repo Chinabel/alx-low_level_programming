@@ -11,13 +11,18 @@
 void print_alphabet_x10(void)
 {
 int n;
+int c = 0;
 
+while (c <= 10)
+{
 for (n = 97; n <= 122; n++)
 {
-_putchar(n * 10);
+_putchar(n);
 }
 
 putchar('\n');
+}
+c++;
 
 getchar();
 }
