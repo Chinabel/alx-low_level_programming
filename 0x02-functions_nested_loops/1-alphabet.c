@@ -5,7 +5,7 @@
  * main - print alphabet in lowercase
  * followed by a new line
  * 
- * Return: void
+ * Return: Always void
  */
 
 void print_alphabet(void)
