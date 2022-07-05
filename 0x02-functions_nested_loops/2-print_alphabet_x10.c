@@ -23,5 +23,7 @@ _putchar(ch);
 putchar('\n');
 }
 
+n++;
+
 getchar();
 }
