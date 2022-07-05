@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * main - print alphabet in lowercase
- * followed by a new line
  * print_alphabet - print a-z
- * 
+ * followed by a new line
+ *
  * Return: Always void
  */
 
