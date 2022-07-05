@@ -16,7 +16,7 @@ char d = 'a';
 
 for (d = 'a'; d < 'z'; d++)
 {
-putchar("%d", d);
+putchar(d);
 d++;
 }
 
