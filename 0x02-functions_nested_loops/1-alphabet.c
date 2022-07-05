@@ -10,15 +10,13 @@
 
 int main(void)
 {
-print_alphabet();
 char ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(ch);
+_putchar(ch);
+_putchar('\n');
 }
-
-putchar('\n');
 
 return (0);
 }
