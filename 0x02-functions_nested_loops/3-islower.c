@@ -9,12 +9,18 @@
 
 int _islower(int c)
 {
-char ch;
+int c;
 
-if (ch = 'a' && ch = 'z')
+if (c >= 97 && c <= 122)
 {
-putchar("'%c' is a lowercase alphabet.", ch);
+for (c = 97; c <= 122; c++)
+{
+write("'%c' is a lowercase alphabet.", ch);
 }
+
+return (1);
+}
+else
 
 return (0);
 }
