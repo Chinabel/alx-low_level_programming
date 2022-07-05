@@ -1,8 +1,6 @@
-void add (int a, int b)
-{
-printf("Added value=%d\n", a + b);
-}
-void multiply(int a, int b)
-{
-printf("Multiply value=%d\n", a * b);
-}
+#ifndef MAIN_H_
+#define MAIN_H_
+
+int main(void);
+
+#endif // MAIN_H__
