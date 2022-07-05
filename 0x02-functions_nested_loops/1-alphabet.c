@@ -8,12 +8,15 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+void print_alphabet(void);
 {
-print_alphabet();
+int n;
 
-_putchar(97);
+for (n = 97; n <= 122; n++)
+{
+_putchar(n);
 _putchar('\n');
+}
 
 return (0);
 }
