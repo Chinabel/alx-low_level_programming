@@ -11,12 +11,10 @@ int _islower(int c)
 {
 char ch;
 
-if (islower(ch))
+if (ch = 'a' && ch = 'z')
 {
 putchar("'%c' is a lowercase alphabet.", ch);
 }
-
-else
 
 return (0);
 }
