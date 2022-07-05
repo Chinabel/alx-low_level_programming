@@ -8,9 +8,9 @@
 
 int main(void)
 {
-char _putchar = "_putchar";
+char _putchar = "ch";
 {
-putchar("%_putchar\n");
+putchar("%ch", ch\n);
 }
 
 return (0);
