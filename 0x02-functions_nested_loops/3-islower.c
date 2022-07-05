@@ -3,9 +3,9 @@
 
 /**
  * _islower - the function to check if an integer is lowercase
- * c: the integer to be used
+ * 'c': the integer to be used for this function
  * Return: 0 if otherwise
- */
+ **/
 
 int _islower(int c)
 {
