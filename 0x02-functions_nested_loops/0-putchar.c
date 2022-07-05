@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,12 +8,10 @@
 
 int main(void)
 {
-int _putchar = ch;
+int _putchar(char d);
 
-putchar("%c", ch); 
-}
-
+putchar("%d"); 
 putchar('\n');
-
+}
 return (0);
 }
