@@ -8,7 +8,9 @@
 
 int main(void)
 {
-write("_putchar\n");
+char _putchar = "_putchar";
+{
+putchar("%_putchar\n");
 }
 
 return (0);
