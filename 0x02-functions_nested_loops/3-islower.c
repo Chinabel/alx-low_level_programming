@@ -13,14 +13,8 @@ int c;
 
 if (c >= 97 && c <= 122)
 {
-for (c = 97; c <= 122; c++)
-{
-write("'%c' is a lowercase alphabet.", ch);
-}
-
 return (1);
 }
-else
 
 return (0);
 }
