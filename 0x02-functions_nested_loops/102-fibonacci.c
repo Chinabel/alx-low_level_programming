@@ -10,12 +10,11 @@
 
 int main(void)
 {
-int f1 = 0, f2 = 1, nextint = 0, num = 50;
+int f1 = 0, f2 = 1, nextint = 0, num = 20365011074;
 
-printf("Enter a positive number: ");
 scanf("%d", &num);
 
-printf("Fibonacci series: %d, %d, ", f1, f2);
+printf("%d, %d, ", f1, f2);
 nextint = f1 + f2;
 
 while (nextint <= num)
