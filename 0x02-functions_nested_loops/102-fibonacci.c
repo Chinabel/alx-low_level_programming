@@ -10,18 +10,21 @@
 
 int main(void)
 {
-int f1 = 0, f2 = 1, f3, num, count = 0;
+int f1 = 0, f2 = 1, nextint = 0, num = 50;
 
-printf("%d, ", f1);
-printf("%d, ", f2);
-count = 2;
+printf("Enter a positive number: ");
+scanf("%d", &num);
 
-while (count < num)
+printf("Fibonacci series: %d, %d, ", f1, f2);
+nextint = f1 + f2;
+
+while (nextint <= num)
 {
-f3 = f1 + f2;
-count++;
-printf("%d\n", f3);
+printf("%d, ", nextint);
 f1 = f2;
-f2 = f3;
+f2 = nextint;
+nextint = f1 + f2;
 }
+
+return (0);
 }
