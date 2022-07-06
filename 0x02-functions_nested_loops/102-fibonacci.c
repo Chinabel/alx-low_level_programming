@@ -12,7 +12,7 @@ int main(void)
 {
 int f1 = 0, f2 = 1, f3, i;
 
-if (n < 1)
+if (i < 1)
 {
 printf("%d, ", f1);
 }
@@ -20,12 +20,9 @@ for (i = 0; i < n; i++)
 {
 printf("%d, ", f2);
 }
-while (count < num)
-{
 f3 = f1 + f2;
 count++;
 printf("%d\n", f3);
 f1 = f2;
 f2 = f3;
-}
 }
