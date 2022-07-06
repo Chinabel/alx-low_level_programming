@@ -12,14 +12,10 @@ int main(void)
 {
 int f1 = 0, f2 = 1, f3, i, count = 0;
 
-if (i < 1)
-{
 printf("%d, ", f1);
-}
-for (i = 0; i < 50; i++)
-{
 printf("%d, ", f2);
-}
+count = 2;
+
 while (count < i)
 {
 f3 = f1 + f2;
