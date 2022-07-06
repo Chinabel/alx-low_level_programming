@@ -43,7 +43,4 @@ printf(98);
 }
 
 printf('\n');
-
-
-return (0);
 }
