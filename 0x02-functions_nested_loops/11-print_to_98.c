@@ -11,13 +11,39 @@
 
 void print_to_98(int n)
 {
-printf("The natural numbers between n and 98 are:\n");
-
-for (n = 1; n <= 98; n++)
+if (n < 98)
+{
+while (n <= 98)
 {
 printf("%d", n);
+if (n != 98)
+{
+printf(', ');
 }
+n++;
+}
+}
+
+else if (n > 98)
+{
+while (n >= 98)
+{
+printf("%d", n);
+if (n != 98)
+{
+printf(', ');
+}
+n--;
+}
+}
+
+else
+{
+printf(98);
+}
+
 printf('\n');
+
 
 return (0);
 }
