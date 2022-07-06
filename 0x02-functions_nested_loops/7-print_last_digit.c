@@ -13,10 +13,10 @@ int d;
 
 d = n % 10;
 
-If (n < 0)
+If (d < 0)
 {
 _putchar(d + '0');
 }
 
-return (n);
+return (d);
 }
