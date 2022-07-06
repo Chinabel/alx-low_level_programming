@@ -3,16 +3,16 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @x: the integer we will use in this function
+ * @n: the integer we will use in this function
  * Return: 0
  */
 
 int _abs(int)
 {
-if (x < 0 || x = -x)
+if (n > 0 || n == 0)
 {
-return (x);
+return (n);
 }
 else
-return (x * -x)
+return (n * -1)
 }
