@@ -41,7 +41,7 @@ n--;
 
 else
 {
-printf(98);
+_putchar(98);
 }
 
 _putchar('\n');
