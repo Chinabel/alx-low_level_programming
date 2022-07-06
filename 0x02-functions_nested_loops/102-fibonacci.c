@@ -10,20 +10,24 @@
 
 int main(void)
 {
-int f1 = 0, f2 = 1, nextint = 0, num = 20365011074;
+long int i, j, k, next;
 
-scanf("%d", &num);
+j = 1;
+k = 2;
 
-printf("%d, %d, ", f1, f2);
-nextint = f1 + f2;
-
-while (nextint <= num)
+for (i = 1; i <= 50; ++i)
 {
-printf("%d, ", nextint);
-f1 = f2;
-f2 = nextint;
-nextint = f1 + f2;
+if (j != 20365011074)
+{
+printf("%ld, ", j);
+} 
+else
+{
+printf("%ld\n", j);
 }
-
+next = j + k;
+j = k;
+k = next;
+}
 return (0);
 }
