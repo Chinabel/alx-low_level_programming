@@ -9,9 +9,5 @@
 
 int add(int num1, int num2)
 {
-int result
-
-result = (num1 + num 2);
-
-return (result);
+return (num1 + num2);
 }
