@@ -10,13 +10,13 @@
 
 int main(void)
 {
-int f1 = 0, f2 = 1, f3, i, count = 0;
+int f1 = 0, f2 = 1, f3, num, count = 0;
 
 printf("%d, ", f1);
 printf("%d, ", f2);
 count = 2;
 
-while (count < i)
+while (count < num)
 {
 f3 = f1 + f2;
 count++;
