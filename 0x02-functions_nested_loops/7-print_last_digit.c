@@ -16,7 +16,7 @@ n = -n;
 
 d = n % 10;
 
-If (d < 0)
+if (d < 0)
 d = -d;
 
 _putchar(d + '0');
