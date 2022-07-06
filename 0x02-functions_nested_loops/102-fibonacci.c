@@ -16,12 +16,12 @@ if (i < 1)
 {
 printf("%d, ", f1);
 }
-for (i = 0; i < n; i++)
+for (i = 0; i < 50; i++)
 {
 printf("%d, ", f2);
 }
 f3 = f1 + f2;
-count++;
+
 printf("%d\n", f3);
 f1 = f2;
 f2 = f3;
