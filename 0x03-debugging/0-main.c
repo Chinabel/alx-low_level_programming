@@ -10,7 +10,7 @@ void positive_or_negative(int i)
 int i;
 
 printf("Enter an integer: ");
-scanf(%d", %s", &i);
+scanf("%d", %s", &i);
 
 if (i > 0)
 {
