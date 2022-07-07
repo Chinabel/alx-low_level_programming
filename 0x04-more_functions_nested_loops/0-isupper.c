@@ -8,12 +8,13 @@
 
 int _isupper(int c)
 {
-int c;
+int c = 'A';
 
-if (c = 65; c < 90; c++)
+if (isupper(c))
 {
-_putchar(c);
-}
-
 return (1);
+}
+else
+
+return (0);
 }
