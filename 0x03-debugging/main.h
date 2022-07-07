@@ -1,6 +1,6 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-int positive_or_negative(i);
+void positive_or_negative(int i);
 
 #endif

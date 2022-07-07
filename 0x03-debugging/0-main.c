@@ -5,7 +5,7 @@
  * Return: 0
  **/
 
-int positive_or_negative(i)
+void positive_or_negative(int i)
 {
 int i;
 
