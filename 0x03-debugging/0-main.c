@@ -9,16 +9,21 @@ int positive_or_negative(i)
 {
 int i;
 
-if (i >= 0)
+printf("Enter an integer: ");
+scanf(%d", %s", &i);
+
+if (i > 0)
 {
-printf("This is a positive integer: ")
+printf("%d is %s\n", i, "positive");
 }
-else if (i <= 0)
+else if (i < 0)
 {
-printf("This is a negative integer: ")
+printf("%d is %s\n", i, "negative");
 }
 else
 }
-return (0);
+printf("%d is %s\n", i, "zero");
 }
+
+return (0);
 }
