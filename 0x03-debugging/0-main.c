@@ -5,14 +5,20 @@
 * Return: 0
 */
 
-int main(void)
+int positive_or_negative(i)
 {
 int i;
 
-if (i <= 0)
+if (i >= 0)
 {
-positive_or_negative(i);
+printf("This is a positive integer: ")
 }
-
+else if (i <= 0)
+{
+printf("This is a negative integer: ")
+}
+else
+}
 return (0);
+}
 }
