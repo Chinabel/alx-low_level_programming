@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checks for uppercase character
- * Return: 0
+ * Return: 1
  */
 
 int _isupper(int c)
@@ -12,10 +12,8 @@ int c;
 
 if (c = 65; c < 90; c++)
 {
+_putchar(c);
+}
+
 return (1);
-}
-else
-{
-return (0);
-}
 }
