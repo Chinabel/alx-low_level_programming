@@ -8,17 +8,11 @@
 
 void print_line(int n)
 {
-int a = 0;
+int count = n, i;
 
-if (n > 0)
-{
-while (a <= n)
+for (i = 0; i < count; i++)
 {
 _putchar('_');
-a++;
 }
-_putchar('\n');
-}
-else
 _putchar('\n');
 }
