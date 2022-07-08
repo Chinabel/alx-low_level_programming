@@ -3,8 +3,8 @@
 
 /**
  * _isupper - checks for uppercase character
- * @c: the integrr to be used in this function
- * Return: 1 if c is upercase
+ * @c: the integer to be used in this function
+ * Return: 1 if uppercase
  * Return: 0 if otherwise
  */
 
