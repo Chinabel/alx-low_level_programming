@@ -3,8 +3,8 @@
 /**
  * print_diagonal - draws a diagonal line on the terminal
  * @n: the integer to be used for the count in this function
- * @x: the integer for the starting point
- * @y: the integer for the ending point
+ * @x: the integer for the ending point
+ * @y: the integer for the starting point
  * Return: 0
  */
 
@@ -26,7 +26,7 @@ for (y = 0; y < x; y++)
 _putchar(' ');
 }
 
-_putchar('\\');
+_putchar(92);
 _putchar('\n');
 }
 }
