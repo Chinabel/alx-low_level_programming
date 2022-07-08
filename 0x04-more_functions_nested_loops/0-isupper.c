@@ -3,6 +3,7 @@
 
 /**
  * _isupper - checks for uppercase character
+ * @c: the integrr to be used in this function
  * Return: 1 if c is upercase
  * Return: 0 if otherwise
  */
