@@ -20,7 +20,7 @@ for (int y = 0; int y < n; y++)
 if (y == x)
 _putchar(diagonal);
 else
-_putchar('\n');
+_putchar(' ');
 }
 _putchar('\n');
 }
