@@ -9,7 +9,7 @@
 void print_diagonal(int n)
 {
 char diagonal = '\';
-int n = 12;
+int n = 7;
 int x;
 int y;
 
@@ -19,8 +19,6 @@ for (int y = 0; int y < n; y++)
 {
 if (y == x)
 _putchar(diagonal);
-else
-_putchar(' ');
 }
 _putchar('\n');
 }
