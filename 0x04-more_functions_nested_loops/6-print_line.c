@@ -2,8 +2,8 @@
 
 /**
  * print_line - draws a straight line in the terminal
- * @n: the number of times the character _ should be printed
- * Return: \n if 0 or less
+ * @n: the integer to be used for this function
+ * Return: 0
  */
 
 void print_line(int n)
