@@ -9,7 +9,7 @@
 
 void print_most_numbers(void)
 {
-char n;
+int n;
 
 while (n <= 9)
 {
