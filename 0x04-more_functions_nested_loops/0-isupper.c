@@ -3,18 +3,23 @@
 
 /**
  * _isupper - checks for uppercase character
+ * @ch: the integer to be used for char
+ * @isupper: the argument to be used for int
  * Return: 0
  */
 
 int _isupper(int c)
 {
-int c = 'A';
+char ch = 'A';
+int isupper = 0;
 
-if (isupper(c))
+for (; ch <= 'Z'; ch++)
 {
-return (1);
+if (c == ch)
+{
+isupper = 1;
+break;
 }
-else
 
-return (0);
+return (isupper);
 }
