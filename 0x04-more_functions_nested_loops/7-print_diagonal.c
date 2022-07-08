@@ -2,17 +2,30 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal
- * @n: the integer to be used for this function
+ * @n: the integer to be used for the count in this function
+ * @x: the integer for starting point
+ * @y: the integer for ending point
  * Return: 0
  */
 
 void print_diagonal(int n)
 {
-int diagonal = n, i;
+char diagonal = '\';
+int n = 12;
+int x;
+int y;
 
-for (i = 0; i > diagonal; i++)
+for (int x = 0; int x < n; x++)
 {
-_putchar('\');
+for (int y = 0; int y < n; y++)
+{
+if (y == x)
+_putchar(diagonal);
+else
+_putchar('\n');
 }
 _putchar('\n');
+}
+
+return (0);
 }
