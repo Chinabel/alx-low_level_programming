@@ -2,9 +2,9 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal
- * @n: the integer to be used for the count in this function
- * @x: the integer for the ending point
- * @y: the integer for the starting point
+ * @n: the number of lines to print
+ * @x: the integer for the first axis
+ * @y: the integer for the last axis
  * Return: 0
  */
 
