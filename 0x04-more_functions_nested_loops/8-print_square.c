@@ -17,9 +17,6 @@ for (j = 0; j < size; j++)
 {
 _putchar('#');
 }
-
 _putchar('\n');
 }
-
-return (0);
 }
