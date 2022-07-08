@@ -10,20 +10,23 @@
 
 void print_diagonal(int n)
 {
-char diagonal = '\';
-int n = 7;
-int x;
-int y;
+int x, y;
 
-for (int x = 0; int x < n; x++)
+if (n <= 0)
 {
-for (int y = 0; int y < n; y++)
-{
-if (y == x)
-_putchar(diagonal);
-}
 _putchar('\n');
 }
-
-return (0);
+else
+{
+for (x = 0; x < n; x++)
+{
+for (y = 0; y < x; y++)
+{
+_putchar(' ');
 }
+_putchar('\\');
+_putchar('\n');
+}
+}
+}
+
