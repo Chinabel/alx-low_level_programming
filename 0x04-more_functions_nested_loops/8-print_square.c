@@ -8,6 +8,7 @@
 
 void print_square(int size)
 {
+int size;
 int i;
 int j;
 
@@ -17,6 +18,7 @@ for (j = 0; j < size; j++)
 {
 _putchar('#');
 }
+
 _putchar('\n');
 }
 }
