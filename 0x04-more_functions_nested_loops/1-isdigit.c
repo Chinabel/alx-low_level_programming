@@ -2,11 +2,14 @@
 
 /**
  * _isdigit - checks for a digit
+ * @c: the integer we will use in this function
  * Return: 1 if a digit or 0 if otherwise
  */
 
 int _isdigit(int c)
 {
+int c;
+
 if (c >= 0 && c <= 9)
 
 return (1);
