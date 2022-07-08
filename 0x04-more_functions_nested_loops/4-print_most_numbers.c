@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - prints numbers from 0 to 9 followed by a new line
  * Do not print 2 and 4
+ * @n: the integer we will use for this function
  * Return: 0
  */
 
