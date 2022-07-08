@@ -3,7 +3,6 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: the number of times the character _ should be printed
- * @a: the integer to be used in this function
  * Return: \n if 0 or less
  */
 
