@@ -3,6 +3,8 @@
 /**
  * print_square - prints a square, followed by a new line
  * @size: integer to return size of square
+ * @i: the first integer
+ * @j: the second integer
  * Return: 0
  */
 
