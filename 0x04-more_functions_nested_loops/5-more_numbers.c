@@ -17,7 +17,7 @@ _putchar(d + '0');
 if (n = 10)
 {
 _putchar(d * n);
-d++;
 }
 _putchar('\n');
+d++;
 }
