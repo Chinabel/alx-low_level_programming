@@ -11,7 +11,7 @@ void print_square(int size)
 int i;
 int j;
 
-while (size == 5)
+while (size = 5)
 {
 for (i = 0; i < size; i++)
 {
