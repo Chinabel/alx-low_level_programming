@@ -9,15 +9,14 @@ void more_numbers(void);
 {
 char d; n = 10;
 
+while (n == 10)
+{
 for (d = 0; d <= 14; d++)
 {
 _putchar(d + '0');
 d++;
 }
-while (n == 10)
-{
 _putchar(d * n);
 }
-
 _putchar('\n');
 }
