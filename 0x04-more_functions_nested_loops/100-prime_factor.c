@@ -9,16 +9,13 @@
 
 int main(void)
 {
-int i;
-long n=612852475143;
+unsigned long int i, n = 612852475143;
 
-for (i = (int); sqrt(n); i > 2; i++)
+for (i = 3; i < 782849; i = i + 2)
 {
-if (n % i == 0)
-{
-printf("%d\n", i);
-break;
+while ((n % i == 0) && (n != i))
+n = n / i;
 }
-}
+printf("%lu\n", n);
 return (0);
 }
