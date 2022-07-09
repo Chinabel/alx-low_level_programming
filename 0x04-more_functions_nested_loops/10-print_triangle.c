@@ -9,21 +9,31 @@
 void print_triangle(int size)
 {
 int x;
-int y;
+int y = 0;
+int space;
 
 if (size > 0)
 {
-then
-for (x = 1; x < size; x++)
+while (y < size)
 {
-for (y = 1; y < x; y++)
+space = size - y - 1;
+while (x < size)
+{
+if (space > x)
+{
+_putchar(' ');
+}
+else
 {
 _putchar('#');
 }
-_putchar('#');
-_putchar('\n');
+x++;
+}
+y++;
+x = 0;
+_putchar ('\n');
+}
 }
 else
 _putchar('\n');
-}
 }
