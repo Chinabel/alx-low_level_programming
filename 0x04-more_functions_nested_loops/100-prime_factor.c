@@ -12,14 +12,14 @@ int main(void)
 int i;
 long int n=612857475143;
 
-for (i = (int) sqrt(n); i > 2; i++)
+for (i = 2; i <= sqrt(n); i > 2; i++)
 {
 if (n % i == 0)
 {
+n = n / i;
+i = 1;
+}
+}
 printf("%d\n", i);
-break;
-}
-}
-
 return (0);
 }
