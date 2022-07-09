@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - find print the largest prime factor of a number
  * 612852475143
- * followed by a new line
  * Return: 0
  */
 
