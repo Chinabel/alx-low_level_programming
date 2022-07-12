@@ -4,6 +4,7 @@
 /**
  * print_rev - prints a string in reverse, followed by a new line
  * @s: the string for this function
+ * @str_len: the length of string function
  * Return: void
  */
 
@@ -19,7 +20,7 @@ end = s;
 for (c = 0; c <= len - 1; c++)
 end++;
 
-for (c = 0; c <= len/2; c++)
+for (c = 0; c <= len / 2; c++)
 {
 temp = *end;
 *end = *begin;
