@@ -23,14 +23,14 @@ for (c = 0; c <= len/2; c++)
 {
 temp = *end;
 *end = *begin;
-*begin = *temp;
+*begin = temp;
 
 begin++;
 end--;
 }
 }
 
-int strlen(char *p)
+int str_len(char *p)
 {
 int c = 0;
 
