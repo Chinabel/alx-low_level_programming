@@ -4,7 +4,7 @@
 /**
  * print_rev - prints a string in reverse, followed by a new line
  * @s: the string for this function
- * Return: 0
+ * Return: void
  */
 
 void print_rev(char *s)
@@ -19,5 +19,5 @@ s[c] = s[len - c - 1];
 s[len - c - 1] = temp;
 }
 
-return (s);
+return (*s);
 }
