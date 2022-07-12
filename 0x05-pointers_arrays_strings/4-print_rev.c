@@ -19,5 +19,5 @@ s[c] = s[len - c - 1];
 s[len - c - 1] = temp;
 }
 
-return (*s);
+return (c);
 }
