@@ -3,11 +3,15 @@
 
 /**
  * _strlen - returns the length of a string
+ * @l: the integer to be used
  * Return: 0
  */
 
 int _strlen(char *s)
 {
-char *s[7] = "School";
-int len = strlen(*s);
+char s[] = "This is a school";
+int l;
+
+for (l = 0; s[l] != '\0'; l++)
+_putchar(l);
 }
