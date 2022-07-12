@@ -10,33 +10,18 @@
 
 void print_rev(char *s)
 {
-int c, len;
-char *begin, *end, temp;
-
-len = strlen(s);
-begin = s;
-end = s;
-
-for (c = 0; c <= len - 1; c++)
-end++;
-
-for (c = 0; c <= len / 2; c++)
-{
-temp = *end;
-*end = *begin;
-*begin = temp;
-
-begin++;
-end--;
-}
-}
-
-int str_len(char *p)
-{
 int c = 0;
 
-while (*(p + c) != '\0')
+while (s[c] != '\0')
+{
 c++;
+}
+c--;
+while (c > 0)
+{
+putchar(s[c]);
+c--;
+}
 
-return (c);
+putchar('\n');
 }
