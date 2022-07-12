@@ -9,12 +9,13 @@
 
 void puts2(char *str)
 {
-char *str = "This is my school";
-char s[20] = " ";
+int n = 0;
 
-for (int i = 0; i < strlen(str); i+=2)
+while (str[n] != '\0')
 {
-putchar(str[i]);
-s[i/2] = str[i];
+if (n % 2 == 0)
+putchar(str[n]);
+n++
 }
+putchar('\n');
 }
