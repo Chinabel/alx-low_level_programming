@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints a string, followed by a new line
- * @str: a string integer
+ * @str: a string function
  * Return: 0
  */
 
