@@ -27,3 +27,4 @@ s[half] = strno;
 s[max - half] = endno;
 half--;
 }
+}
