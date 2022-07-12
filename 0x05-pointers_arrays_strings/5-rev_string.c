@@ -6,11 +6,11 @@
  * Return: 0
  */
 
-void rev_string(char *s)	
+void rev_string(char *s)
 {
 int i, max, half;
-char strno, endno ;
-	
+char strno, endno;
+
 i = 0;
 while (s[i] != '\0')
 {
