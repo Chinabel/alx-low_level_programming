@@ -2,17 +2,18 @@
 
 /**
  * _puts - prints a string, followed by a new line
+ * @str: a string integer
  * Return: 0
  */
 
 void _puts(char *str)
 {
-int name = 0;
+int n = 0;
 
-while (str[name] != '\0')
+while (str[n] != '\0')
 {
-_putchar(str[name]);
-name++;
+_putchar(str[n]);
+n++;
 }
 
 _putchar('\n');
