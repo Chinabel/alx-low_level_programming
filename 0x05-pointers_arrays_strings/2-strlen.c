@@ -13,7 +13,7 @@ int l = 0;
 
 while (s[l] != '\0')
 {
-l++
+l++;
 }
 return (l);
 }
