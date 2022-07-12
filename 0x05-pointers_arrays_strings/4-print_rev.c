@@ -4,7 +4,6 @@
 /**
  * print_rev - prints a string in reverse, followed by a new line
  * @s: the string for this function
- * @str_len: the length of string function
  * Return: void
  */
 
@@ -17,7 +16,7 @@ while (s[c] != '\0')
 c++;
 }
 c--;
-while (c > 0)
+while (c >= 0)
 {
 putchar(s[c]);
 c--;
