@@ -4,7 +4,6 @@
 /**
  * _strlen - returns the length of a string
  * @s: the integer to indicate a string
- * @l: the integer to be used
  * Return: 0
  */
 
