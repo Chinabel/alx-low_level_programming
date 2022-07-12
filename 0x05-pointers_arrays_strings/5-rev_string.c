@@ -2,26 +2,28 @@
 
 /**
  * rev_string - reverses a string
+ * @s: the string to be used
  * Return: 0
  */
 
-void rev_string(char *s)
+void rev_string(char *s)	
 {
-char s[1000], r[1000];
-int begin, end, count = 0;
-
-while (s[count] != '\0')
-count++;
-
-end = count - 1;
-
-for (begin = 0; begin < count; begin++)
+int i, max, half;
+char strno, endno ;
+	
+i = 0;
+while (s[i] != '\0')
 {
-r[begin] = s[end];
-end--;
+i++;
 }
+max = i - 1;
+half = max / 2;
 
-r[begin] = '\0';
-
-putchar(r);
+while (half >= 0)
+{
+strno = s[max - half];
+endno = s[half];
+s[half] = strno;
+s[max - half] = endno;
+half--;
 }
