@@ -9,9 +9,9 @@
 
 int _strlen(char *s)
 {
-char s[] = "This is a school";
 int l;
 
 for (l = 0; s[l] != '\0'; l++)
-_putchar(l);
+
+return (l);
 }
