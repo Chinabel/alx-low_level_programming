@@ -9,15 +9,20 @@
 
 int _atoi(char *s)
 {
-int pw = 10, len, num;
-int val = 0;
+int sign = 1;
+unsigned int num = 0;
 
-for (int i = 0; i < len; i++)
-{
-val *= pw;
-num = (int)(*(str + i) - 48);
-val += num;
-return (val);
-}
-return (val);
+do {
+
+if (*s == '-')
+sign *= -1;
+
+else if (*s >= '0' && *s <= '9')
+num = (num * 10) + (*s - '0');
+
+else if (num > 0)
+break;
+} while (*s++);
+
+return (num * sign);
 }
