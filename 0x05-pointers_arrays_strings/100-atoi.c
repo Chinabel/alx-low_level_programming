@@ -3,7 +3,7 @@
 
 /**
  * _atoi - converts a string to a integer
- * @i: integer to be used in this function
+ * @s: integer to be used in this function
  * Return: void
  */
 
@@ -24,5 +24,5 @@ else if (num > 0)
 break;
 } while (*s++);
 
-return (num * sign);
+return (num *sign);
 }
