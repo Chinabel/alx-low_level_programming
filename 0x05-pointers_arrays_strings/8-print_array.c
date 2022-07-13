@@ -7,7 +7,7 @@
  * separated by comma followed by space
  * followed by a new line
  * @a: inputs array
- * @b: inputs n elements
+ * @n: inputs n elements
  * Return: 0
  */
 
