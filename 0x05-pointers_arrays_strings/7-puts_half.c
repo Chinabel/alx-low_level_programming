@@ -10,6 +10,7 @@
 void puts_half(char *str)
 {
 int n = 5;
+char str = "Holberton!";
 int str_size = strlen(str);
 int s;
 int part_size;
