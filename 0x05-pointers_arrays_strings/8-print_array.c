@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_array - prints n elements of an array of integers,
@@ -20,5 +21,5 @@ printf("%d", *(a + i));
 if (i != (n - 1))
 printf(", ");
 }
-printf('\n');
+printf("\n");
 }
