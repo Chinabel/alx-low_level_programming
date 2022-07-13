@@ -4,13 +4,12 @@
 /**
  * puts_half - prints half of a string
  * @str: indicates a string
- * @n: integer to be used
  * Return: 0
  */
 
 void puts_half(char *str)
 {
-int n = 2;
+int n = 0;
 int str_size = strlen(str);
 int s;
 int part_size;
