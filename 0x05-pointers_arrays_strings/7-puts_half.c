@@ -9,7 +9,7 @@
 
 void puts_half(char *str)
 {
-int n = 0;
+int n = 5;
 int str_size = strlen(str);
 int s;
 int part_size;
