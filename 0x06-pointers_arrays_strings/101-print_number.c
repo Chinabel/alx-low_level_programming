@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints an integer
- * @n: an integer
+ * @n: the integer to print
  * Return: 0 if success
  */
 
@@ -28,5 +28,5 @@ else if ((n / 10 == 0) && (n % 10 != 0) && (n <= 0))
 {
 _putchar('-');
 _putchar(-n % 10 + '0');
-}    
+}
 }
