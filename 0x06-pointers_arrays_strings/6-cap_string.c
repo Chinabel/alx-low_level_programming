@@ -6,30 +6,30 @@
  * @s: input string
  * Return: first letter capitalize after separator
  */
+
 char *cap_string(char *s)
 {
-int i, j;
-int cap = 32;
-int separators[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
+int count = 0, index;
 
-for (i = 0; s[i] != '\0'; i++)
-{
-if (s[i] >= 'a' && s[i] <= 'z')
-{
-s[i] = s[i] - cap;
-}
+int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-cap = 0;
+if (*(s + count) >= 97 && *(s + count) <= 122)
+*(s + count) = *(s + count) - 32;
 
-for (j = 0; j <= 12; j++)
+count++;
+
+while (*(s + count) != '\0')
 {
-if (s[i] == separators[j])
+for (index = 0; index < 13; index++)
 {
-j = 12;
-cap = 32;
-}
+if (*(s + count) == sep_words[index])
+{
+if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+*(s + (count + 1)) = *(s + (count + 1)) - 32;
+break;
 }
 }
-
+count++;
+}
 return (s);
 }
