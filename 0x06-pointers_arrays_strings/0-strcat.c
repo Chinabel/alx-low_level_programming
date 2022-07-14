@@ -2,9 +2,9 @@
 
 /**
  * _strcat - concantenates two strings
- * @dest: destination
- * @src: source
- * Return: pointer to dest
+ * @dest: destination.
+ * @src: source.
+ * Return: the pointer to dest
  */
 
 char *_strcat(char *dest, char *src)
