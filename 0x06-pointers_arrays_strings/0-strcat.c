@@ -2,9 +2,9 @@
 
 /**
  * *_strcat - concantenates two strings
- * appends the src string to the dest string
- * overwrites the terminating null byte (\0) at the end of dest, 
- * Return: *dest
+ * @dest: destination
+ * @src: source
+ * Return: pointer to dest
  */
 
 char *_strcat(char *dest, char *src)
