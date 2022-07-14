@@ -5,7 +5,6 @@
  * @s: input string
  * Return: capitalized string
  */
-
 char *cap_string(char *s)
 {
 int i;
