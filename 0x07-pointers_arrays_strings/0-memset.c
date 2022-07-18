@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _memset - fills memory with a constant byte.
+ * _memset - fills memory with a constant byte
  * @s: the memory space to be filled
  * @b: a constant byte
  * @n: number of bytes in the memory
@@ -17,6 +17,5 @@ for (i = 0; i < n; i++)
 {
 *(s + i) = b;
 }
-
 return (s);
-} 
+}
