@@ -19,8 +19,11 @@ if (s[i] == c)
 f++;
 break;
 }
+}
+if (f == 0)
+{
 return (c);
+}
 else
 return (0);
-}
 }
