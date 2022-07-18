@@ -5,9 +5,9 @@
  * @s: the pointer to modify
  * @to: the value to assign
  * Return: 0
- */
+ **/
 
 void set_string(char **s, char *to)
 {
-*s = to;
-} 
+	*s = to;
+}
