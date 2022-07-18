@@ -1,6 +1,5 @@
 #include "main.h"
 #include <iostream>
-using namespace std;
 
 /**
  * _strstr - locates a substring.
