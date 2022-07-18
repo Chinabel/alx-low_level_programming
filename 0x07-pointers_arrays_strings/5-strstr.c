@@ -11,24 +11,19 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-int b;
-int p = 0;
+unsigned int b;
 
-while (needle[p] != '\0')
-p++;
+b = 0;
 
-while (*haystack)
+while (needle[b] != '\0')
+b++;
+
+while (*haystack != '\0')
 {
-for (b = 0; needle[b]; b++)
-{
-if (haystack[b] != needle[b])
-break;
-}
-if (b != p)
+if (_strncmp(haystack, needle, b) == 0)
+return (haystack);
 haystack++;
-else
-return (hystack);
 }
 
 return (NULL);
-} 
+}
