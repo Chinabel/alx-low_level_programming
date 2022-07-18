@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - prints the chessboard.
- * @a: the array
+ * @a: the row of the  array
  * Return: nothing
  */
 
@@ -21,5 +21,6 @@ _putchar('\n');
 }
 else
 _putchar(a[x][y]);
+}
 }
 } 
