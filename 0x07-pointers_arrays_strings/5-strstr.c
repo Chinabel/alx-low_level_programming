@@ -28,5 +28,6 @@ return (b);
 
 haystack = b + 1;
 }
-return NULL;
+
+return (NULL);
 } 
