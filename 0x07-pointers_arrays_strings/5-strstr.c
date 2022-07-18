@@ -1,5 +1,6 @@
 #include "main.h"
-#include <string.h>
+#include <iostream>
+using namespace std;
 
 /**
  * _strstr - locates a substring.
@@ -11,18 +12,21 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-unsigned int b;
+char *bgn = haystack;
+char *ptn = needle;
 
-b = 0;
-
-while (needle[b] != '\0')
-b++;
-
-while (*haystack != '\0')
+while (*haystack)
 {
-if (_strncmp(haystack, needle, b) == 0)
-return (haystack);
+while (*haystack && *ptn && *haystack == *ptn)
+{
 haystack++;
+ptn++;
+}
+
+if (!*ptn)
+return (bgn);
+
+haystack = bgn + 1;
 }
 
 return (NULL);
