@@ -5,11 +5,9 @@
  * _strstr - locates a substring
  * @haystack: a string
  * @needle: a substring
- * @bgn: a pointer to haystack
- * @ptn: a pointer to needle
  * Return:
- * 	returns a pointer to the beginning of the substring
- * 	returns NULL if not found
+ * returns a pointer to the beginning of the substring
+ * returns NULL if not found
  *
  */
 
