@@ -6,18 +6,18 @@
  * @haystack: a string
  * @needle: a substring
  * Return:
- * 	a pointer to the beginning of the located substring
- * 	or NULL if not found
+ * 	returns a pointer to the beginning of the located substring
+ * 	returns NULL if not found
  *
  */
 
 char *_strstr(char *haystack, char *needle)
 {
+while (*haystack)
+{
 char *bgn = haystack;
 char *ptn = needle;
 
-while (*haystack)
-{
 while (*haystack && *ptn && *haystack == *ptn)
 {
 haystack++;
