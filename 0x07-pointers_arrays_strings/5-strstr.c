@@ -3,11 +3,10 @@
 
 /**
  * _strstr - locates a substring.
- * @needle: a substring
  * @haystack: a string
- * Return: 
- *	returns a pointer to the beginning of the located substring 
- *	returns NULL if not found
+ * @needle: a substring
+ * Return: a pointer to the beginning of the located substring
+ * or NULL if not found
  */
 
 char *_strstr(char *haystack, char *needle)
