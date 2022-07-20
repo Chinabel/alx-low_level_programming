@@ -27,7 +27,7 @@ if (i == j)
 return (1);
 if (s[i] != s[j])
 return (0);
-if (i < j + 1);
+if (i < j + 1)
 return (Pal_Rec(s, i + 1, j - 1));
 }
 
