@@ -3,17 +3,13 @@
 /**
  * _strlen_recursion - returns the length of a string.
  * @s: the string to use
+ * Return: 1 else 0
  */
 
 int _strlen_recursion(char *s)
 {
-	int len = 0;
-
-	if (*s != '\0')
-	{
-		len++;
-		_strlen_recursion(*s);
-	}
+	if ('\0' != *s)
+		return 1 + _strlen_recursion(s + 1);
 	else
-		return (*s)
+		return 0;
 }
