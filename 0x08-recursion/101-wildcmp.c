@@ -14,11 +14,11 @@ int i, b = 0;
 
 if (strlen(s1) == strlen(s2))
 {
-for (i = 0; s2[i]; i++)
-{
-if (s1[i] == s2[i])
-b++;
+i++;
 }
+if (s1[i] == s2[i])
+{
+b++;
 if (b == i)
 return (1);
 }
