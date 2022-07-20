@@ -10,14 +10,23 @@
 
 int wildcmp(char *s1, char *s2)
 {
-int i, b = 0;
+int i = 0; 
+n1 = strlen(s1);
+n2 = strlen(s2);
+b = 0;
 
-if (strlen(s1) == strlen(s2))
+if (n1 != n2)
 {
-if (s1[i] == s2[i])
+return (0);
+}
+else if (i < n1)
+{
 b++;
+i++;
+wildcmp(s1, s2);
+}
 if (b == i)
 return (1);
-}
+
 return (0);
 }
