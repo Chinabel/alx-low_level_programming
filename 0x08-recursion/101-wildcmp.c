@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * wildcmp - compares two strings, returns 1 if the strings are identical
@@ -21,6 +22,5 @@ b++;
 if (b == i)
 return (1);
 }
-else
 return (0);
 }
