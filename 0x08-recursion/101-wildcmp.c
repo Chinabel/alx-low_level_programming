@@ -10,10 +10,7 @@
 
 int wildcmp(char *s1, char *s2)
 {
-int i = 0; 
-n1 = strlen(s1);
-n2 = strlen(s2);
-b = 0;
+int i = 0, n1 = strlen(s1), n2 = strlen(s2), b = 0;
 
 if (n1 != n2)
 {
