@@ -16,7 +16,7 @@ if (n1 != n2)
 {
 return (0);
 }
-else if (i < n1)
+else if (i <= n1)
 {
 b++;
 i++;
