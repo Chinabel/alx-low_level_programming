@@ -9,19 +9,24 @@
 
 int _sqrt_recursion(int n)
 {
-int i;
-
-if (n > i) / 2;
-return (-1);
-
-if (i * i <= n && (i + 1) + (i + 1) > n)
-return (i);
-
-else
-return (_sqrt_recursion(i, n));
+if (n == 0 || n == 1)
+return (n);
+return (_sqrt(0, n));
 }
 
-int _sqrt(int n)
+/**
+ * _sqrt - returns the square root of a number
+ * @n: test number
+ * @i: squared number
+ *
+ * Return: _sqrt()
+ */
+
+int _sqrt(int n, int i)
 {
-return (_sqrt_recursion(1, n);
+if (n > i / 2)
+return (-1);
+else if (n * n == i)
+return (n);
+return (_sqrt(n + 1, i));
 }
