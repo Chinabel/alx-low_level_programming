@@ -29,6 +29,7 @@ if (s[i] != s[j])
 return (0);
 if (i < j + 1)
 return (Pal_Rec(s, i + 1, j - 1));
+return (1);
 }
 
 /**
@@ -43,5 +44,6 @@ int n = _strlen_recursion(s);
 
 if (n == 0 || *s != s[n - 1])
 return (0);
+
 return (Pal_Rec(s, 0, n - 1));
 }
