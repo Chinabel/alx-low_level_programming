@@ -14,7 +14,6 @@ int i, b = 0;
 
 if (strlen(s1) == strlen(s2))
 {
-i++;
 if (s1[i] == s2[i])
 b++;
 if (b == i)
