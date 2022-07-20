@@ -14,7 +14,7 @@ return (_strlen_recursion(s + 1) + 1);
 }
 
 /**
- * Pal_Rev - checks if two chars of a string are equal
+ * Pal_Rec - recursive function that checks two chars of a string
  * @s: string to be checked
  * @i: first index
  * @j: last index
