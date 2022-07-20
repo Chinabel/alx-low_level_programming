@@ -28,5 +28,5 @@ int is_prime_number(int n)
 if (n <= 1)
 return (0);
 
-return(find_primenumber(n, n / 2));
+return (find_primenumber(n, n / 2));
 }
