@@ -46,7 +46,7 @@ if (*s1 == *s2)
 return (wildcmp(s1 + 1, s2 + 1));
 
 else if (*s2 == '*')
-return (str_idn(s1, (s2 + 1), (s2 + 1)));
+return (substring_match(s1, (s2 + 1), (s2 + 1)));
 
 else
 return (0);
