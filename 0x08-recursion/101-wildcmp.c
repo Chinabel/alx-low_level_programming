@@ -2,25 +2,32 @@
 #include <string.h>
 
 /**
- * str_idn - check if two strings are identical
- * @s1: string_1 base address
- * @s2: string_2 base address
- * @a: the first index
- * @b: the second index
- * Return: 1 if s is palindrome, 0 otherwise
- */
+* substring_match - check if a substring after wildcard matches s1
+* @s1: one string
+* @s2: one string
+* @after_wldcd: placeholder for position right after wildcard
+* Return: 1 if matched, 0 if not
+*/
 
-int str_idn(char *s1, char *s2, int a, int b)
+int substring_match(char *s1, char *s2, char *after_wldcd)
 {
-if (s1[a] == '\0' && s2[b] == '\0')
+if (*s1 == '\0' && *s2 == '\0')
 return (1);
-if (s1[a] == s2[b])
-return (str_idn(s1, s2, a + 1, b + 1));
-if (s1[a] == '\0' && s2[b] == '*')
-return (str_idn(s1, s2, a, b + 1));
-if (s2[b] == '*')
-return (str_idn(s1, s2, a + b, b) || str_idn(s1, s2, a, b + 1));
+
+if (*s1 == '\0' && *s2 == '*')
+return (substring_match(s1, s2 + 1, s2 + 1));
+
+if (*s1 == '\0' && *s2 != '\0')
 return (0);
+
+if (*s2 == '*')
+return (substring_match(s1, s2 + 1, s2 + 1));
+
+if (*s1 == *s2)
+return (substring_match(s1 + 1, s2 + 1, after_wldcd));
+
+else
+return (substring_match(s1 + 1, after_wldcd, after_wldcd));
 }
 
 /**
