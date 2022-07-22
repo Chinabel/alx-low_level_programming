@@ -12,9 +12,9 @@ int main(int argc, const char **argv)
 {
 	int i;
 
-	for (i = 0; i < agrc; i++)
+	for (i = 0; i < argc; i++)
 	{
-		printf("%s", agrv[i]);
+		printf("%s\n", argv[i];
 	}
 
 	return (0);
