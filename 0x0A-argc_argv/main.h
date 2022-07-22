@@ -3,7 +3,6 @@
 
 int _putchar(char c);
 int main(int argc, char *argv[]);
-int main(int argc, const char **argv);
 int isInteger(const char *s);
 
 #endif
