@@ -7,7 +7,7 @@
  *
  * @argc: the argument count
  * @argv: the array containing the arguments
- * Return: 0
+ * Return: 1
  */
 
 int main(int argc, char *argv[])
@@ -21,5 +21,5 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", result);
-	return (0);
+	return (1);
 }
