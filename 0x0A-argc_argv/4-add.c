@@ -4,7 +4,6 @@
 
 /**
  * main - adds positive numbers
- * prints the result followed by a new line
  * @argc: the argument count
  * @argv: the array of the arguments
  * Return: 0
