@@ -13,13 +13,13 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int product = 1;
+	int result = 1;
 
 	for (i = 1; i < argc; i++)
 	{
-		product = product * strtol( argv[i], NULL, 10);
+		result = result * strtol(argv[i], NULL, 10);
 	}
 
-	printf("%d\n", product);
+	printf("%d\n", result);
 	return (0);
 }
