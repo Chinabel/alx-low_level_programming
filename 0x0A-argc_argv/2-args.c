@@ -4,16 +4,16 @@
 
 /**
  * main - prints all arguments it receives
- * @args: the argument entry point
+ * @argc: the argument count
  * @argv: the array of arguments
  * Return: 0
  */
 
-int main(int args, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < args; i++)
+	for (i = 0; i < argc; i++)
 		printf("%s\n", argv[1]);
 	return (0);
 }
