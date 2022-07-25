@@ -12,11 +12,11 @@ char *create_array(unsigned int size, char c)
 {
 	int n;
 
-	char *c = malloc(n * sizeof(char));
+	char c = malloc(n * sizeof(char));
 
 	memset(c, '\0', n * sizeof(char));
 
-	for (int size = 0; size < n; size++)
+	for (size = 0; size < n; size++)
 	{
 		c[0] = '\0';
 	}
