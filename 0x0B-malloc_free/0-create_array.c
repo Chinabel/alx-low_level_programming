@@ -11,12 +11,12 @@
 char *create_array(unsigned int size, char c)
 {
 	int n = 0;
-	char c[5];
+	char *c = c;
 
 	for (size = 0; size < n; size++)
 	{
-		c[n] = '\0';
+		*(c + n) = '\0';
 	}
 
-	return (c);
+	return (*c);
 }
