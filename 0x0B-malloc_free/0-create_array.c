@@ -12,8 +12,9 @@ char *create_array(unsigned int size, char c)
 {
 	int n;
 
-	c = malloc(n * sizeof(char));
-	create_array(c, '\0', n * sizeof(char));
+	char *c = malloc(n * sizeof(char));
+
+	memset(c, '\0', n * sizeof(char));
 
 	for (int size = 0; size < n; size++)
 	{
