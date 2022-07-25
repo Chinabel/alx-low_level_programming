@@ -24,4 +24,6 @@ char *_strdup(char *str)
 		duplicate[j] = j + 1;
 	}
 	_putchar(duplicate[j]);
+
+	return (duplicate);
 }
