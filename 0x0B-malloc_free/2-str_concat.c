@@ -30,10 +30,13 @@ char *str_concat(char *s1, char *s2)
 	if (s3 == NULL)
 		return (NULL);
 
-	for (i = 0; s1[i]; i++)
-		s3[i] = s1[i];
-	for (i = 0; s2[i]; i++)
-		s3[i] = s2[i];
+	for (i = 0; s1[i] || s2[i]; i++)
+	{
+		if (i > len)
+			s3[i] = s1[i];
+		else
+			s3[i] = s2[i - len];
+	}
 
 	return (s3);
 }
