@@ -10,11 +10,10 @@
 char *_strdup(char *str)
 {
 	char *duplicate;
+	int i, j;
 
 	if (str == NULL)
 		return (NULL);
-
-	int i, j;
 
 	for (i = 0; *(str + i); i++)
 	{
