@@ -11,13 +11,13 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
-	int i;
+	int i, len = 0;
 
-	len = 0;
-
-	if (s1 || s2 == NULL)
-		s1 || s2 = "";
+	while (s1 || s2 == NULL)
+	{
+		_putchar("");
 		len++;
+	}
 
 	s3 = malloc(len * sizeof(char));
 
