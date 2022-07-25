@@ -5,7 +5,7 @@
  * alloc_grid - a pointer to a 2 dimensional array of integers
  * @width: width of the grid
  * @height: height of the grid
- * Return: NULL if failure
+ * Return: a pointer to tbe array of integers
  */
 
 int **alloc_grid(int width, int height)
@@ -27,6 +27,7 @@ int **alloc_grid(int width, int height)
 	for (w = 0; w < height; w++)
 	{
 		data[w] = malloc(width * sizeof(int));
+
 		if (data[w] == NULL)
 		{
 			while (w)
