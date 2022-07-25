@@ -9,18 +9,19 @@
 
 char *_strdup(char *str)
 {
-	*str = malloc(sizeof(char));
-}
+	char *duplicate;
+	int i, j;
 
-/**
- * main - return a pointer to a pointer
- * Return: 0
- */
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-int main(void)
-{
-	char *str = NULL;
+	duplicate = malloc(i * sizeof(char));
 
-	_strdup(&str);
-	return (0);
+	for (j = 0; j < i; j++)
+	{
+		duplicate[j] = j + 1;
+	}
+	_putchar(duplicate[j]);
 }
