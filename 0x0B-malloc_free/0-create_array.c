@@ -13,10 +13,10 @@ char *create_array(unsigned int size, char c)
 	int n = 0;
 	char c[5];
 
-	for (n = 0; n < size; n++)
+	for (size = 0; size < n; size++)
 	{
-		c[n] = n;
+		c[n] = '\0';
 	}
-	return (0);
-}
 
+	return (c);
+}
