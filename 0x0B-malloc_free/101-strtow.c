@@ -9,13 +9,14 @@
 
 char **strtow(char *str)
 {
-	int n1 = 0, n2 = 0, size = word_count(str);
+	int n1 = 0, n2 = 0, size = count(str);
 	char **ch;
 
 	ch = malloc(size * sizeof(char *));
 
 	if (str == NULL || str == "")
 		return (NULL);
+
 	while (str[n1])
 	{
 		if (str[n1] == ' ')
@@ -24,9 +25,9 @@ char **strtow(char *str)
 			n2++;
 		}
 		else
-			ch[0] = malloc(0 * sizeof(char));
-			ch[0] = &str[0];
-		n++;
+			ch[n2] = malloc(n1 * sizeof(char));
+			ch[n2] = &str[n1];
+		n1++;
 	}
 	**ch = ' ';
 
