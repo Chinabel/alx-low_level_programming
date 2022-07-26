@@ -25,8 +25,10 @@ char **strtow(char *str)
 			n2++;
 		}
 		else
+		{
 			ch[n2] = malloc(n1 * sizeof(char));
 			ch[n2] = &str[n1];
+		}
 		n1++;
 	}
 	**ch = ' ';
