@@ -9,12 +9,14 @@
 
 char **strtow(char *str)
 {
-	int n1 = 0, n2 = 0, size = count(str);
+	int n1 = 0, n2 = 0, size, count;
 	char **ch;
+
+	size = count(str);
 
 	ch = malloc(size * sizeof(char *));
 
-	if (str == NULL || str == "")
+	if (str == NULL || str == " ")
 		return (NULL);
 
 	while (str[n1])
