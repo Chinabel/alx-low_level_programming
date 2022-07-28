@@ -5,7 +5,8 @@
  * @s1: the first string pointer
  * @s2: the second string pointer
  * @n: the int value
- * Return: a pointer to the allocated memory else NULL
+ * Return: NULL if function fails
+ * else return a pointer to allocated memory
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -26,6 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 		return (NULL);
 
+	len = 0;
 	for (b = 0; s1[b]; b++)
 		str[len++] = s1[b];
 
