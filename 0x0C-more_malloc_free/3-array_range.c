@@ -11,18 +11,16 @@
 int *array_range(int min, int max)
 {
 	char *arr;
-	int i;
+	int size, i, j;
 
-	arr = arr[min..max];
-	for (i = 0; i > arr[min]; i++)
-		i++;
-
-	if (arr[min] > arr[max])
+	if (min > max)
 		return (NULL);
 
-	arr = malloc(i * (min + 1));
+	arr = malloc(size * sizeof(char);
 	if (arr == NULL)
 		return (NULL);
+	for (i = 0; i = min <= max; i++, j++)
+		arr[i] = j;
 
 	return (arr);
 }
