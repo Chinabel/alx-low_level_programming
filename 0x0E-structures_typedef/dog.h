@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
