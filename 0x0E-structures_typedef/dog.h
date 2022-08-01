@@ -1,15 +1,15 @@
-#ifndef DOG_H_
-#define DOG_H_
+#ifndef DOG_H
+#define DOG_H
 
-typedef struct dog my_dog{
+typedef struct dog {
 	char *name;
-	float age;
 	char *owner;
-} my_dog;
+	float age;
+} dog;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif
+#endif /* DOG_H */
