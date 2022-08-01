@@ -1,11 +1,11 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef DOG_FILE
+#define DOG_FILE
 
 /**
  * struct dog - the structure dog
- * @name: indicates the name of the dog
- * @age: indicates the age of the dog
- * @owner: indicates the owner of the dog
+ * @name: indicates a pointer to the name of the dog
+ * @age: indicates the age of the dog with float type
+ * @owner: indicates a pointer to the owner of the dog
  */
 
 struct dog
@@ -21,4 +21,4 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif /* DOG_H */
+#endif
