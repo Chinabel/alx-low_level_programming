@@ -1,12 +1,13 @@
-#include "object_like_macro.h"
-#include "pi.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - empty block
- * Return: void
+ * main - prints the name of the file it was compiled from
+ * Return: 0
  */
 
 int main(void)
 {
-	return (void);
+	printf("%s\n", __FILE__);
+	return (0);
 }
