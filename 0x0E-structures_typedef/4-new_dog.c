@@ -1,12 +1,13 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * new_dog - a new struct
  * @name: a pointer to char value
  * @age: a float value
  * @owner: a pointer to char value
- * Return: NULL if failure
+ * Return: newdog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -34,7 +35,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	for (j = 0; j <= n; j++)
-		(*doge).name[j] = name[k];
+		*((*doge).name + j) = *(name + j);
 
 	(*doge).age = age;
 	(*doge).owner = malloc(i * sizeof((*doge).owner));
@@ -46,7 +47,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	for (j = 0; j <= i; j++)
-		(*doge).owner[j] = owner[j];
+		*((*doge).owner + j) = *(owner + j);
 
 	return (doge);
 }
