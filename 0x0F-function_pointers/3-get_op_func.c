@@ -3,7 +3,6 @@
 
 /**
  * get_op_func -  selects the correct function that performs an operation
- *		asked by the user.
  * @s: the operator passed as an argument to the program
  * Return: pointer to a function
  */
@@ -20,11 +19,7 @@ int (*get_op_func(char *s))(int, int)
 	};
 	int n = 0;
 
-	while (n < 5)
-	{
-		if (!strcmp(ops[n].op, s))
-			return (ops[n].f);
+	while (ops[n].op != NULL && *(ops[n].op) != *s)
 		n++;
-	}
-	return (NULL);
+	return (ops[n].f);
 }
