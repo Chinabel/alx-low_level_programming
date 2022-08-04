@@ -1,13 +1,15 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - performs simple operations
  * @argc: argument count
  * @argv: argument value
- * Return: 0 if no errors
+ * Return: Always 0
  */
-int main(int argc, char *argv[])
+
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
