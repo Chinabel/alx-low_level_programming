@@ -1,4 +1,4 @@
-#include "variable_functions.h"
+#include "variadic_functions.h"
 
 /**
  * print_numbers - print numbers followed by a new line
@@ -11,6 +11,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numstr;
 	unsigned int i;
+
+	if (separator == NULL)
+		return;
 
 	va_start(numstr, n);
 
