@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - performs simple operations
+ * main - prints the result of simple operations
  * @argc: argument count
- * @argv: argument value
+ * @argv: array of pointers to the arguments
  * Return: Always 0
  */
 
