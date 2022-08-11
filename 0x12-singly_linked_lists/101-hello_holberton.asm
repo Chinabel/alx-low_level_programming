@@ -2,12 +2,12 @@
 	extern	printf
 
 	section	.text		;
-_main:
+main:
 	push	message
 	mov	rdi, format
 	mov	rsi, message
 	mov	rax, 0		;
-	call	_printf
+	call	printf
 
 	pop	message		;
 
