@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beginning of a list
+ * add_node - adds a new node at the beginning of a list_t list
  * @head: the first node
  * @str: the string element
- * Return: address to the new node or NULL if failed
+ * Return: address to the new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -23,5 +23,5 @@ list_t *add_node(list_t **head, const char *str)
 	fnode->next = *head;
 	*head = fnode;
 
-	return (fnode);
+	return (*head);
 }
