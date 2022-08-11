@@ -7,7 +7,7 @@
  */
 size_t list_len(const list_t *h)
 {
-	int len = 0;
+	size_t len = 0;
 
 	list_t *current = h;
 
