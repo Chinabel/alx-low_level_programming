@@ -1,11 +1,21 @@
-	global	_main
-	extern	_printf
+	global	main
+	extern	printf
 
-	section	.text
+	section	.text		;
 _main:
 	push	message
+	mov	rdi, format
+	mov	rsi, message
+	mov	rax, 0		;
 	call	_printf
-	add	esp, 4
+
+	pop	message		;
+
+	mov	rax, 0		;
 	ret
+
+	section .data
 message:
-	db 	'Hello, Holberton', 10, 0
+	db 	"Hello, Holberton", 0 ;
+format:
+	db	"%s", 10, 0	;
