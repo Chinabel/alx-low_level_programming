@@ -16,6 +16,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	fnode->str = strdup(str);
+
 	for (nchar = 0; str[nchar]; nchar++)
 		;
 
