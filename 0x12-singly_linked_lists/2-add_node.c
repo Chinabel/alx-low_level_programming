@@ -8,9 +8,20 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	struct node *add_node = malloc(sizeof(struct node));
+	list_t *fnode;
+	size_t nchar;
 
-	add_node->data = str;
-	add_node->next = *head;
-	*head = add_node;
+	fnode = malloc(sizeof(list_t));
+	if (fnode = NULL)
+		return (NULL);
+
+	fnode->str = strdup(str);
+	for (nchar = 0; str[nchar]; nchar++)
+		;
+
+	fnode->len = nchar;
+	fnode->next = *head;
+	*head = fnode;
+
+	return (fnode);
 }
