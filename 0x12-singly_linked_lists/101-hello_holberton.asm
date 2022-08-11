@@ -1,15 +1,15 @@
-	global	main
-	extern	printf
-
 	section	.text		;
+
+	extern	printf
+	global	main
 main:
-	push	message
+	push	rbp
 	mov	rdi, format
 	mov	rsi, message
 	mov	rax, 0		;
 	call	printf
 
-	pop	message		;
+	pop	rbp		;
 
 	mov	rax, 0		;
 	ret
