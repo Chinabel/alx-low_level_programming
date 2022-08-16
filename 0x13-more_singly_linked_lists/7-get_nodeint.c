@@ -8,11 +8,11 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int count = 0;
+	unsigned int count;
 
 	for (count = 0; count <  index && head != NULL; count++)
 	{
-		current = current->next;
+		head = head->next;
 	}
 	return (head);
 }
