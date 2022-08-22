@@ -4,7 +4,7 @@
  * read_textfile - reads a text file
  * and prints it to the POSIX standard output.
  * @filename: the name of the file
- * @letters: as it implies
+ * @letters: the number of letters
  * Return: 0 if success
  */
 
