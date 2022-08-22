@@ -5,7 +5,7 @@
  * and prints it to the POSIX standard output.
  * @filename: the name of the file
  * @letters: the number of letters
- * Return: 0 if success
+ * Return: the number of letters
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -30,8 +30,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	frd = read(x, out, letters);
 	fwr = write(STDOUT_FILENO, out, frd);
 
-	close(x);
 	free(out);
+	close(x);
 
 	return (fwr);
 }
