@@ -30,8 +30,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	frd = read(x, out, letters);
 	fwr = write(STDOUT_FILENO, out, frd);
 
-	free(out);
 	close(x);
+	free(out);
 
 	return (fwr);
 }
