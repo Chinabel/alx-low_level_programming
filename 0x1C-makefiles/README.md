@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/106745705/206125354-971de9bb-1fa0-410c-ac95-504a86665076.png)
+![image](https://user-images.githubusercontent.com/106745705/206125643-8954b106-a8de-4fad-b2da-47177127593b.png)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
