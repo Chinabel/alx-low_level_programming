@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/106745705/206125834-efb68429-6500-43ba-bf1b-901d48988c38.png)
+
 ![image](https://user-images.githubusercontent.com/106745705/206125643-8954b106-a8de-4fad-b2da-47177127593b.png)
 
 # Learning Objectives
